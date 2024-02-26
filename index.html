@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center;
+            margin: 20px;
+            line-height: 1.6;
+        }
+
+        h1 {
+            text-transform: uppercase;
+            color: #333;
+        }
+
+        p {
+            text-transform: lowercase;
+            color: #666;
+        }
+
+        .highlight {
+            background-color: #ffeeba;
+        }
+
+        @media (min-width: 601px) and (max-width: 900px) {
+            h1 {
+                font-size: 24px;
+            }
+
+            p {
+                font-size: 14px;
+            }
+
+            .highlight {
+                padding: 10px;
+            }
+        }
+
+        @media (min-width: 901px) {
+            h1 {
+                font-size: 36px;
+            }
+
+            p {
+                font-size: 18px;
+            }
+
+            .highlight {
+                padding: 20px;
+            }
+        }
+    </style>
+    <title>Complex CSS Text Transform Example</title>
+</head>
+<body>
+    <h1>This is a Heading</h1>
+    <p>This is a paragraph with some text. <span class="highlight">Highlighted Text</span></p>
+</body>
+</html>
